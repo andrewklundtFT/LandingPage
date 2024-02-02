@@ -25,15 +25,41 @@ header h3 {
 
 .secondary {
     margin:10%;
+    display:flex;
+    justify-content: space-evenly;
+    gap: 5%;
+    height: 250px;
 }
 
-.block {
+.secondary img {
+    height: auto;
 }
 
+h1 {
+    padding:0px;
+    margin:0px;
+}
+
+.block p {
+    font-size: 18px;
+    color:#d4dbe5;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    height: inherit;
+}
+
+.block button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 0px solid white;
+    border-radius:4px;
+    padding:5px;
+    width: 90px;;
+}
 
 ul {
     font-size: 18px;
-    color:#e5e7eb;
+    color:#d4dbe5;
     display:flex;
     list-style-type: none;
     margin:0px;
@@ -42,9 +68,7 @@ ul {
     gap:20px;
 }
 
-.hero img {
-    width:40%;
-}
+
 
 .showcase img {
     width:15%;
